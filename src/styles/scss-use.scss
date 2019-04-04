@@ -1,0 +1,8 @@
+@import "../variables/scss.scss";
+
+.box {
+  name: "scss"; /* 此属性错误，仅用于区分，可忽略*/
+  background-color: $primaryColor;
+  font-size: $fontSize;
+ 
+}

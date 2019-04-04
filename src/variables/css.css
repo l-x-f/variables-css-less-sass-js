@@ -1,0 +1,21 @@
+/* @value 定义变量，然后在使用。
+
+@value bgcColor: red;   会导出@ 后面的变量，
+在:export {}  可以取到该变量，也可以导出
+他们在功能上等同于 ES6 的关键字export，即导出一个 js 对象。*/
+
+@value bgcColor: red;
+@value fontSize: 10px;
+
+/*   这里可以直接使用
+.demo { 
+  background-color: bgcColor;
+  font-size: fontSize;
+} */
+
+
+/*  CSS Module  导出 
+ :export {
+  cssExportBgcColor: bgcColor;
+}
+ */

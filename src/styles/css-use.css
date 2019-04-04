@@ -1,0 +1,8 @@
+@value variables: "../variables/css.css"; /* 导入变量*/
+@value bgcColor, fontSize from variables;/* 取出变量*/
+
+.box {
+  name: "css"; /* 此属性错误，仅用于区分，可忽略*/
+  background-color: bgcColor;
+  font-size: fontSize;
+}
